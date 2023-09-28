@@ -1,18 +1,23 @@
-## Getting Started
+## Atividade supervisionada 02: 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- programação em Java;
+- Ambientação com IDE,
+- Compilador
+- Maven e a linguagem Java; 
 
-## Folder Structure
+Criar classe
+para exibir "Olá mundo!" na saída padrão. Diretório (hello no seu repositório ds-2023-02.
 
-The workspace contains two folders by default, where:
+> ds-2023-02/Atividade supervisionada02 27-09/HelloWorld/src/HelloWorld.java
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+<pre>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+public class HelloWorld {
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    public static void main(String[] args) {
+    
+        System.out.println("Olá mundo!");
+        
+    }
+</pre>
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
