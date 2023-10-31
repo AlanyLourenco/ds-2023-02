@@ -1,18 +1,12 @@
-## Getting Started
+Princípio da Abertura/Fechamento (Open/Closed Principle): Ao separar as operações matemáticas em classes diferentes, você torna o código mais aberto para extensões, mas fechado para modificações. Isso adere ao princípio de que o código deve ser aberto para estender (você pode adicionar novas operações facilmente) e fechado para modificações (não é necessário alterar as classes existentes para adicionar novas operações).
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Princípio da Responsabilidade Única (Single Responsibility Principle): Cada classe tem uma única responsabilidade, que é a de realizar uma operação matemática específica. Isso mantém as classes focadas e coesas.
 
-## Folder Structure
+Princípio da Interface Segregada (Interface Segregation Principle): A interface Expressao possui uma única operação valor(), que é apropriada para as classes que a implementam. Isso evita a necessidade de classes implementarem métodos que não são relevantes para elas.
 
-The workspace contains two folders by default, where:
+Padrão Decorator: O uso do padrão Decorator é uma lição valiosa. Ele permite que você adicione funcionalidades a objetos em tempo de execução, sem modificar suas estruturas de classes. Isso promove a flexibilidade e a extensibilidade do código.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Complexidade Ciclomática: A preocupação com a complexidade ciclomática é uma lição de design de software importante. Manter a complexidade sob controle ajuda a tornar o código mais legível e mantível.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Modularidade e Reutilização: A divisão das operações em classes separadas promove a reutilização de código. Você pode reutilizar as classes Soma, Subtrai, Multiplica e Divide em diferentes partes do sistema, se necessário.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
