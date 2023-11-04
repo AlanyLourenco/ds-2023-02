@@ -1,0 +1,3 @@
+interface Markdown {
+    void exibe();
+}
